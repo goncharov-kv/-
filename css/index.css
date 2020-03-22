@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.wear {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+.div-m {
+    width: 0;
+    height: 0;
+
+}
+.background {
+    background-color: #f9f9f9;
+    overflow-y: hidden;
+}
+.flex-error {
+    display: flex;
+
+}
+.div-txt {
+    font-size: 25px;
+margin-left: 30px;
+    font-weight: 700;
+    width: 250px;
+
+}
+.small {
+    width: 75px;
+    height: 75px;
+}
+.wrapper-block {
+    display: flex;
+}
+.div-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 250px;
+    border-left: 2px  solid #e3e3e4;
+    height: 550px;
+}
+.wrapper-block-tablet {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.div-wrapper:nth-child(1) {
+    padding-top: 25px;
+}
+.block-1 {
+    padding-top: 60px;
+    width: 200px;
+}
+.p2 {
+    width: 200px;
+
+    font-size: 14px;
+    padding-top: 7px;
+    color: #444444;
+}
+.place {
+    font-size: 14px;
+    padding-top: 7px;
+    color: #444444;
+}
+ .flex-error{
+    width: 350px;
+    z-index: 5;
+}
+/* .lamp {
+    padding-top: 45px;
+} */
+.div-wrapper:last-child {
+    border-right: 2px  solid #e3e3e4;
+}
+.tablet {
+    opacity: 0;
+ 
+}
+.m {
+    opacity: 0;
+}
+
+@media (min-width:321px) and (max-width:768px) {
+.wear {
+    opacity: 1;
+    width: 768px;
+    height: 900px;
+}
+
+/* .m {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+} */
+
+.wrapper-block {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.tablet {
+    opacity: 1;
+
+}
+.b {
+    opacity: 0;
+
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.div-save {
+    display: flex;
+    margin-left: 50px;
+}
+.block-1 {
+margin-left: 80px;
+padding-top: 20px;
+}
+.flex-error {
+    margin-left: 50px;
+}
+}
+@media (max-width:320px) {
+.div-m {
+    opacity: 1;
+    width: 320px;
+    height: 1500px;
+}
+    .tablet {
+        opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+    
+    .b {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+    .block-1 { 
+        margin-left: 60px;
+    }
+    .m {
+        opacity: 1;
+    }
+    .flex-error {
+        margin: 0;
+    }
+    .div-txt {
+        margin-top: 5px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .small {
+        width: 65px;
+        height: 55px;
+    }
+    .p2 {
+        width: 250px;
+    }
+    
+}
